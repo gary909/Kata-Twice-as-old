@@ -1,5 +1,7 @@
 function twiceAsOld(dadYearsOld, sonYearsOld) {
     // your code here
+    let ans = dadYearsOld - sonYearsOld * 2;
+    return Math.abs(ans); // Math.abs removeds any '-' signs
 }
 
 console.log(twiceAsOld(36,7)); // Return 22
